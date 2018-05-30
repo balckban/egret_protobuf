@@ -1,0 +1,49 @@
+{
+  "engineVersion": "5.1.6",
+  "compilerVersion": "5.1.6",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "protobuf-library",
+      "path": "protobuf/library"
+    },
+    {
+      "name": "protobuf-bundles",
+      "path": "protobuf/bundles"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "测试项目",
+      "packagename": "com.companyname"
+    },
+    "ios": {
+      "appname": "测试项目",
+      "packagename": "com.companyname"
+    }
+  }
+}
